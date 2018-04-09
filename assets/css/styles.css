@@ -79,7 +79,7 @@ a:active { color: #000; }
 
 .logo {
   width: 500px;
-  padding-top: 100px;
+  padding-top: 70px;
   margin: 0 auto;
 }
 
@@ -88,6 +88,7 @@ a:active { color: #000; }
 }
 
 .contact {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,6 +114,6 @@ a:active { color: #000; }
 @media screen and (max-width: 480px){
   .logo {
     width: 270px;
-    padding-top: 100px;
+    padding-top: 70px;
   }
 }
