@@ -56,6 +56,11 @@ border-spacing: 0;
 body {
   font-size: 26px;
   font-family: PlantagenetCherokee;
+  background: url("../images/bg.jpg") no-repeat fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 a:link { color: #000; }
