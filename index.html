@@ -1,22 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html amp lang="en">
   <head>
     <meta charset="utf-8">
     <title>maroton</title>
-    <meta name="description" content="web design & programming">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="canonical" href="https://maroton.jp/">
+    <meta name="description" content="maroton | web design & programming | xR blockchain ethereum">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <style amp-custom>
+      /* http://meyerweb.com/eric/tools/css/reset/
+      v2.0 | 20110126
+      License: none (public domain)
+      */
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed,
+      figure, figcaption, footer, header, hgroup,
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section {
+      display: block;
+      }
+      body {
+      line-height: 1;
+      }
+      ol, ul {
+      list-style: none;
+      }
+      blockquote, q {
+      quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+      content: '';
+      content: none;
+      }
+      table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      }
+
+      /* maroton */
+
+      @font-face {
+        font-family: 'PlantagenetCherokee';
+        src: url(/assets/font/PlantagenetCherokee.ttf);
+      }
+
+      body {
+        font-size: 26px;
+        font-family: PlantagenetCherokee;
+        background-color: #fdfdfd;
+      }
+
+      a:link { color: #000; }
+      a:visited { color: #000; }
+      a:hover { color: #000; }
+      a:active { color: #000; }
+
+      .root {
+        position: relative;
+        text-align: center;
+        height: 100%;
+        min-height: 100%;
+      }
+
+      .notice {
+        padding: 5px 0;
+        font-size: 14px;
+        color: #ccc;
+        background-color: #f7f7f7;
+      }
+
+      .logo {
+        padding-top: 70px;
+        margin: 0 auto;
+        width: 45%;
+      }
+
+      .owner {
+        margin: 60px 0;
+      }
+
+      .contact {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .email {
+        width: 50px;
+      }
+
+      .adress {
+        font-size: 20px;
+        text-decoration: underline;
+      }
+
+      .copyright {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        font-size: 14px;
+      }
+
+      /* for SP */
+      @media screen and (max-width: 480px){
+        .logo {
+          width: 60%;
+        }
+      }
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
     <main class="root">
-      <div class="notice">This website is currently under construction.</div>
       <h1 class="logo">
-        <img src="./assets/images/logo.png" width="100%" height="100%" alt="maroton">
+        <amp-img src="/assets/images/logo.png" width="400" height="170" alt="maroton" layout="responsive"></amp-img>
       </h1>
       <div class="owner">Tomoyuki Takata</div>
       <div class="contact">
-        <img class="email" src="./assets/images/tnm.png" width="100%" height="100%" alt="email">
+        <amp-img class="email" src="./assets/images/tnm.png" width="75" height="35" alt="email"></amp-img>
         <div class="adress"><a href="mailto:maroton621@gmail.com">e-mail</a></div>
       </div>
       <div class="copyright">© 2018 maroton.</div>
